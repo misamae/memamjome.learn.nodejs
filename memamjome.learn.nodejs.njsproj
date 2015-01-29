@@ -26,11 +26,16 @@
     <Compile Include="server.js" />
     <Compile Include="api\index.js" />
     <Compile Include="api\products.js" />
+    <Compile Include="test\array.js" />
+    <Compile Include="test\data\productsRepository-spec.js" />
+    <Compile Include="test\products-spec.js" />
     <Compile Include="utilities\utilities.js" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="api" />
     <Folder Include="data\" />
+    <Folder Include="test\" />
+    <Folder Include="test\data\" />
     <Folder Include="utilities" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
