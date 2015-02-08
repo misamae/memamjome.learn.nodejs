@@ -34,7 +34,8 @@ module.exports = function(grunt){
 
     // grunt.registerTask('default', ['nodemon']);
     grunt.registerTask('default', function(){
-        var taskList = ['nodemon', 'mochaRunner', 'mocha'];
+        //var taskList = ['nodemon', 'mochaRunner', 'mocha'];
+        var taskList = ['mochaRunner'];
 
         grunt.task.run(taskList);
     });

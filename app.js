@@ -13,7 +13,15 @@ connect.connect(function (err) {
 
 var app = express();
 
+//send a default page back for startup only
+app.get("/", function (req, res) {
+    res.send('<html><body><h1>Welcome to ParsShipping.com</h1></body></html>');
+});
+//
 index.init(app);
+//
 
 // var router = express.Router();
 app.listen(3000);
+
+console.log('listening to port 3000');
