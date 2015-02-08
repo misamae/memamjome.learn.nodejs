@@ -11,3 +11,6 @@ node_modules
 .idea/*
 
 *.dat
+
+#bower_compoents
+bower_components

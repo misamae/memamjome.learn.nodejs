@@ -10,6 +10,7 @@ var connect = require('./data/connect.js');
 connect.connect(function (err) {
     console.log("connect callback");
 });
+
 var app = express();
 
 index.init(app);
